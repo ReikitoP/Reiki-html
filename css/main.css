@@ -1,0 +1,200 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: cyan;
+    background-image: url('../Img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#wrapper { /*centrar texto e imagenes del cuerpo*/
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    width: 98%;
+}
+img { /*Ajustar tamaño y margen de la imagen*/
+    max-width: 98%;
+    margin: 2%;
+    border-radius: 75px;
+}
+header { /*ponerle fondo a la cabecera y ajustar los magenes*/
+    background: #000000;
+    background-image: url('../Img/Reiki-07.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+#logo { /*Centrar cabecera*/
+    text-align: center;
+    margin: 0;
+}
+h1 { /*Cambiar estilo de letra de "REIKI"*/
+    font-family: "Kaushan Script", cursive;
+    margin: 15px 0;
+    font-size: 1.75em; /*em es una medida relativa, px es absoluta*/
+    font-weight: normal;
+    line-height: 0.8em; /*esto indica cuan pegadas van a estar la lineas entre ellas*/
+}
+h2 { /*Cambiar estilo de letra de "Pseudoterapia"*/
+    font-family: "Kaushan Script", cursive;
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+a { /*Cambiar color de letra de cabecera y subcabecera*/
+    color: #FF0040;
+}
+h1, h2 { /*Cambiar color de letra de cabecera*/
+    color: #2E2EFE;
+}
+h3 {
+    color: #2E2EFE;
+    margin-top: 5px;
+}
+nav { /*Cambiar fondo de subcabecera, formato de texto y centrar texto*/
+    font-family: 'Damion', cursive;
+    font-size: 20px;
+    background: #F7D358;
+    text-align: center;
+    margin: 20px 0 0;
+}
+nav ul { /*Eliminar listado de puntos*/
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav a { /*Ennegrecer la letra de subcabecera*/
+    font-weight: 800;
+    padding: 15px 10px;
+}
+#gallery { /*Eliminar listado de puntos del texto, cambiar estilo de texto*/
+    font-family: 'Rancho', cursive;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#gallery li {/*encuadra y reubica el contenido de la imagen y texto*/
+    float: left;
+    width: 98%;
+    margin: 2%;
+    background: #000000;
+    opacity: 0.8;
+    color: #DBA901;
+    border-radius: 75px 75px 75px 75px;
+    width: 98%;
+}
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+#gallery li:nth-child(4n) {
+    clear: left;
+}
+figure {/*posicion del reproductor mp3*/
+    position: static;
+    float: left;
+    padding: 0;
+    margin: 5px -300px 0 0;
+    font-size: xx-small;
+    height: 50px;
+    opacity: 0.2;
+    clear: both;
+}
+#Primary { /*Achicar espacio que ocupa la imagen y juntar con texto*/
+    width: 40%;
+    float: left;
+}
+#Secondary { /*Achicar espacio que ocupa el texto y juntar con imagen*/
+    width: 56%;
+    margin: 2%;
+    float: left;
+}
+#Tertiary {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+footer { /*Modificar el footer*/
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #000;
+    clear: both;
+}
+.social-icon { /*modificar tamaño del icono*/
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background: none;
+}
+.Vio {
+    color: #B40486
+}
+.Ros {
+    color: #F5A9A9;
+}
+.Roj {
+    color: #FF0000;
+}
+.Ama {
+    color: #FFFF00;
+}
+.Bro {
+    color: #B45F04;
+}
+.Nar {
+    color: #FF8000;
+}
+.Ver {
+    color: #00FF00;
+}
+.Bla {
+    color: #FFFFFF;
+}
+.Dor {
+    color: #B18904;
+}
+.Ind {
+    color: #FF0080;
+}
+.Pla {
+    color: #E6E6E6;
+}
+.app-navbar {/*corrige color y sombreado de la barra de botones*/
+    background: rgba(0,0,0,0.6);
+    border-radius: 0;
+}
+.app-link:hover {
+    color: #FF0040;
+    text-transform: uppercase;
+}
+.app-nav > li > a {/*convierte los botones no seleccionados*/
+    color: #F7D358;
+    text-shadow: none;
+}
+.app-nav>li>a:hover {/*Le da color a los botones con el mouse arriba y convierte el texto a mayuscula*/
+    color: #F7D358;
+    background-color: black;
+    text-transform: uppercase;
+}
+.app-nav>li>a.selected {
+    color: #FF0040;
+    text-transform: uppercase;
+}
+.app-boton {
+    margin-top: 10px;
+    height: 50px;
+    background: #DBA901;
+    color: white;
+}
+.app-icon {/*Esto marca el boton opciones en pantalla chica*/
+    background: white;
+}
